@@ -1,0 +1,131 @@
+/*Globales*/
+*{
+  box-sizing: border-box;  
+  font-family: 'Montserrat', sans-serif;    /*Esta es una fuente externa*/
+  margin: 0 auto;
+}
+/*Para el elemento que contiene a toda la página*/
+.container{
+    text-align: center;
+}
+/*Encabezado*/
+.encabezado{
+    background-color: thistle;
+    overflow: hidden;
+}
+.imgEncabezado{
+    float: left;
+    width: 10%;
+    padding-top: 15px; 
+    padding-left: 10px;
+}
+.imgEncabezado img{
+    width: 100%;
+}
+.menu{
+    float: right;
+}
+.opciones{
+    overflow: hidden;
+    padding: 10px;
+}
+.opciones li{
+    float: left;
+    list-style-type: none;
+    padding: 5px;
+}
+.opciones li a{
+    color: #E54D24;
+    text-decoration: none;
+}
+.opciones li a:hover{
+    text-decoration: underline;
+}
+
+/*Sección que contiene a los gatitos*/
+.seccion1{
+    overflow: hidden;
+}
+/*Cada uno de los artículos que contiene a los supuestos productos a vender*/
+article{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    
+}
+/*Lo idea es que todas las imagenes presenten el 100% de ancho, de esa forma se podran adaptar de manera perfecta a cualquier dispositivo*/
+img{
+    width: 100%;
+}
+
+.precio{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+}
+.destacado{
+    border-top: red solid 4px;
+    background-color: tomato;
+    padding: 10px;
+}
+/*Sección 2*/
+.seccion2{
+    background-color: thistle;
+    padding: 30px;
+}
+.titulo{
+    color:#E54D24;
+}
+
+/*Footer*/
+footer{
+    overflow: hidden;
+    background-color: #697486;
+    border-top: 1px #E54D24 solid;
+    color: white;
+}
+.derechos{
+    float: left;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.sociales{
+    float: right;
+    padding: 20px;
+}
+
+/*CSS de la Página de Nosotros*/
+.somos{
+    text-align: justify;
+    padding: 10px;
+    
+}
+.nosotros{
+    background-image: url('../img/cat5.jpg');
+    background-position:  top right;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+}
+.nosotrosSeccion1{
+    overflow: hidden;
+    
+}
+#nosotrosQuienesSomos, .nosotrosSubtitulo{
+ color: tomato;
+ 
+}
+.nosotrosArticulo{
+    width: 50%;
+}
+p{
+    text-align: justify;
+}
+.nosotrosParrafo{
+    background-color: rgba(232, 218, 190, 0.3);
+    padding: 10px;
+    
+}
